@@ -17,4 +17,4 @@ ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head -n 6
 echo "Top 5 Processes by Memory Usage:"
 ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -n 6
 
-echo "------------------------"
+echo "-------------------------"
